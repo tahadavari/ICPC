@@ -35,6 +35,7 @@ def merge_sort(array: list):
             k += 1
 
 
+
 array = [3 ,2,8,5,4]
 
 merge_sort(array)
