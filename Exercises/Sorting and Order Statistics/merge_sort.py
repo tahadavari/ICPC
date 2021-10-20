@@ -1,12 +1,11 @@
 def merge_sort(array: list):
-    print('array : ',array)
     if len(array) > 1:
         mid = len(array)//2
 
         L = array[:mid]
-        print('L : ',L)
+
         R = array[mid:]
-        print('R : ',R)
+
         merge_sort(L)
 
         merge_sort(R)
